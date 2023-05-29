@@ -14,7 +14,6 @@ project ("design_patterns" CXX)
 set (CMAKE_CXX_STANDARD 20)
 set (CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add source to this project's executable.
-add_executable (design_patterns "design_patterns.cpp" "design_patterns.h")
+add_subdirectory ("creational")
 
 # TODO: Add tests and install targets if needed.
